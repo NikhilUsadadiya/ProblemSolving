@@ -25,7 +25,6 @@ public class SumOfThree {
                 }
             }
         }
-
     }
 
     private static void sumOfThreeSolution(int[] nums1) {

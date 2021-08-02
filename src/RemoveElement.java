@@ -2,8 +2,8 @@
 public class RemoveElement {
 
     static int i = 0;
-    static int[] nums1 = {3, 2, 2, 3};
-    static int value = 3;
+    static int[] nums1 = {3, 2, 2, 4};
+    static int value = 40;
 
     public static void main(String[] args) {
         removeElement(nums1, value);
@@ -15,7 +15,9 @@ public class RemoveElement {
             if (nums1[j] != value) {
                 nums1[i] = nums1[j];
                 i++;
-            }
+            } /*else {
+                i = -1;
+            }*/
         }
 
         /*for (int k=0; k<nums1.length; k++) {

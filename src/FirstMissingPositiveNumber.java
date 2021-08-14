@@ -23,7 +23,6 @@ public class FirstMissingPositiveNumber {
             }
         }
 
-        // Finding which index has value less than n
         for(int i = 0; i < nums1.length; i++)
             if (nums1[i] != i + 1)
                 System.out.println("if enter" + (i + 1));
